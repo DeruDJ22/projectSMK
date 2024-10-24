@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-image: url(https://cdn.popmama.com/content-images/post/20200623/20200623-121354-0000png-eb01c01e4968037d0bdafb0b1b9824e3_600xauto.png);
+            background-size: cover;
+        }
+        .container{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            padding: 20px 25px;
+            background-color: white;
+        }
+        h1{
+            color: #d13b00;
+            font-size: 50px;
+            text-align: left;
+        }
+        .login input{
+            width: 500px;
+            height: 30px;
+            border: 2px solid #d13b00;
+        }
+        .bawah{
+            display: flex;
+            justify-content: space-between;
+        }
+        a{
+            color: #d13b00;
+            text-decoration: none;
+        }
+        .submit{
+            display: flex;
+        }
+        .submit .daftar{
+            margin-right: 20px;
+        }
+        .submit .daftar a button{
+            font-size: 18px;
+            border: 2px solid #d13b00;
+            background-color: white;
+            color: #d13b00;
+        }
+        .submit .masuk a button{
+            font-size: 18px;
+            border: 2px solid #d13b00;
+            background-color: #d13b00;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login Member</h1>
+        <div class="login">
+            <input type="text" name="Username" placeholder="User Member">
+            <br>
+            <br>
+            <input type="password" name="Password" placeholder="Password">
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="bawah">
+            <a href="#">Forget Password?</a>
+            <div class="submit">
+                <div class="daftar">
+                    <a href="daftar.html"><button type="submit">Daftar</button></a>
+                </div>
+                <div class="masuk">
+                    <a href="index.html"><button>Masuk</button></a>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
